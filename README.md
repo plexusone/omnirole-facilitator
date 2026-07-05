@@ -30,11 +30,11 @@ The Facilitator role enables AI agents to facilitate collaboration across channe
 
 ## Features
 
-- **Omnichannel** - Works across meetings (OmniMeet), chat (Slack), and phone (Twilio)
-- **Preparation** - Gather pre-reads, create agendas, brief participants
-- **Real-time Facilitation** - Track action items, decisions, and discussions
-- **Documentation** - Generate notes, publish to Confluence, create follow-ups
-- **Integration** - Connect with Confluence, Aha, Jira, GitHub, GitLab
+- 🌐 **Omnichannel** - Works across meetings (OmniMeet), chat (Slack), and phone (Twilio)
+- 📋 **Preparation** - Gather pre-reads, create agendas, brief participants
+- ⚡ **Real-time Facilitation** - Track action items, decisions, and discussions
+- 📄 **Documentation** - Generate notes, publish to Confluence, create follow-ups
+- 🔗 **Integration** - Connect with Confluence, Aha, Jira, GitHub, GitLab
 
 ## Installation
 
