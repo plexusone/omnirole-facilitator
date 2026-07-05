@@ -75,10 +75,10 @@ type Document struct {
 
 // Participant represents a meeting participant.
 type Participant struct {
-	ID       string `json:"id"`
-	Name     string `json:"name"`
-	Email    string `json:"email,omitempty"`
-	Role     string `json:"role,omitempty"` // host, presenter, attendee, agent
+	ID       string    `json:"id"`
+	Name     string    `json:"name"`
+	Email    string    `json:"email,omitempty"`
+	Role     string    `json:"role,omitempty"` // host, presenter, attendee, agent
 	JoinedAt time.Time `json:"joined_at,omitempty"`
 	LeftAt   time.Time `json:"left_at,omitempty"`
 }
