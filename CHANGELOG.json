@@ -1,0 +1,39 @@
+{
+  "irVersion": "1.0",
+  "project": "omnirole-facilitator",
+  "repository": "https://github.com/plexusone/omnirole-facilitator",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-07-05",
+      "highlights": [
+        { "description": "Initial release of the Facilitator role for omnichannel meeting facilitation" }
+      ],
+      "added": [
+        { "description": "FacilitatorRole implementing `role.Role` interface from omniskill", "commit": "d654ddd" },
+        { "description": "Three workflows: `prepare`, `facilitate`, `wrapup` for meeting lifecycle", "commit": "d654ddd" },
+        { "description": "Session tracking for action items, decisions, and discussion points", "commit": "117f946" },
+        { "description": "Role prompts for pre-meeting, during-meeting, and post-meeting phases", "commit": "0c34cae" },
+        { "description": "RoleSpec with responsibilities, behaviors, artifacts, and metrics", "commit": "d654ddd" },
+        { "description": "Support for required skills: meeting, google, confluence", "commit": "d654ddd" },
+        { "description": "Support for optional skills: chat, voice, aha, jira, github, gitlab", "commit": "d654ddd" }
+      ],
+      "tests": [
+        { "description": "Unit tests for role initialization and configuration", "commit": "aab11c5" },
+        { "description": "Unit tests for workflow execution", "commit": "aab11c5" }
+      ],
+      "documentation": [
+        { "description": "README with features, installation, quick start, and API reference", "commit": "0402c1d" },
+        { "description": "Update README shields", "commit": "d2815f6" }
+      ],
+      "dependencies": [
+        { "description": "`github.com/plexusone/omniskill` v0.10.0", "commit": "3766f2c" }
+      ],
+      "infrastructure": [
+        { "description": "Standard CI workflows (go-ci, go-lint, go-sast-codeql)", "commit": "5f97316" }
+      ]
+    }
+  ]
+}
