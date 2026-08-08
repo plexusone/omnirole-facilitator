@@ -112,6 +112,11 @@ func (r *FacilitatorRole) Description() string {
 	return "Omnichannel Facilitator - facilitates collaboration across meetings, chat, and phone"
 }
 
+// Version returns the role version.
+func (r *FacilitatorRole) Version() string {
+	return "1.0.0"
+}
+
 // SystemPrompt returns the role's system prompt.
 func (r *FacilitatorRole) SystemPrompt(ctx context.Context) (string, error) {
 	// Build dynamic prompt based on configuration
